@@ -6,13 +6,14 @@ using UnityEngine.AI;
 
 public class Mover : MonoBehaviour
 {
-    [SerializeField] GameObject target;
     private NavMeshAgent navMeshAgent;
     Ray ray;
+    Animator animator;
 
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -21,6 +22,15 @@ public class Mover : MonoBehaviour
         {
             MoveToCursor();    
         }
+        UpdateAnimation();
+    }
+
+    private void UpdateAnimation()
+    {
+        Vector3 velocity = navMeshAgent.velocity;
+        Vector3 localVelocity = transform.InverseTransformDirection(velocity);
+        float speed = localVelocity.z;
+        animator.SetFloat("forwardSpeed", speed);
     }
 
     private void MoveToCursor()
