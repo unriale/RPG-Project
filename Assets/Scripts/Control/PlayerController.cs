@@ -21,6 +21,10 @@ namespace RPG.Control
             if (InterectWithMovement()) return;
         }
 
+        /// <summary>
+        /// Check if there is a target to attack.
+        /// </summary>
+        /// <returns>True if there is a target to attack, false otherwise.</returns>
         private bool InterectWithCombat()
         {
             RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
@@ -46,7 +50,7 @@ namespace RPG.Control
             {
                 if (Input.GetMouseButton(0))
                 {
-                    mover.MoveTo(hit.point);
+                    mover.StartMoveAction(hit.point);
                 }
             } 
             return hasHit;
