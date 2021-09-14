@@ -32,9 +32,12 @@ namespace RPG.Control
             foreach (RaycastHit hit in hits)
             {
                 var target = hit.transform.GetComponent<CombatTarget>();
-                if (target == null)  continue;
 
-                if(Input.GetMouseButtonDown(0))
+                if (target == null)  continue;
+                // if one is dead and we need to attack behind it
+                if (!GetComponent<Fighter>().CanAttack(target)) continue;
+
+                if (Input.GetMouseButtonDown(0))
                 {
                     GetComponent<Fighter>().Attack(target);
                 }

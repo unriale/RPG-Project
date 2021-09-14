@@ -43,12 +43,19 @@ namespace RPG.Combat
 
         private void AttackBehaviour()
         {
+            transform.LookAt(target.transform);
             if (timeSinceLastAttack >= timeBetweenAttacks)
             {
                 //This will trigger the Hit() event
-                animator.SetTrigger("attack");
+                AttackTrigger();
                 timeSinceLastAttack = 0;
             }     
+        }
+
+        private void AttackTrigger()
+        {
+            animator.ResetTrigger("stopAttack");
+            animator.SetTrigger("attack");
         }
 
         /// <summary>
@@ -60,10 +67,21 @@ namespace RPG.Combat
             return Vector3.Distance(transform.position, target.transform.position) <= weaponRange;
         }
 
+        private void StopAttack()
+        {
+            animator.ResetTrigger("attack");
+            animator.SetTrigger("stopAttack");
+        }
+
         public void Cancel()
         {
+            StopAttack();
             target = null;
-            animator.SetTrigger("stopAttack");
+        }
+
+        public bool CanAttack(CombatTarget combatTarget)
+        {
+            return !combatTarget.GetComponent<Health>().IsDead();
         }
 
         public void Attack(CombatTarget combatTarget)
