@@ -21,6 +21,7 @@ namespace RPG.Control
             if (InterectWithMovement()) return;
         }
 
+
         /// <summary>
         /// Check if there is a target to attack.
         /// </summary>
