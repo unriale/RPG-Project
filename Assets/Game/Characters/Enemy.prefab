@@ -27,6 +27,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
+  suspicionTime: 5
+  path: {fileID: 3001110795569370688, guid: b587a7c43a2442d46859713eb7a08866, type: 3}
 --- !u!114 &3395744328627658658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1565170464, guid: 6d4cc850061137b4e9e2ea9a54716032, type: 3}
       propertyPath: m_Radius
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8297043373076021653, guid: 6d4cc850061137b4e9e2ea9a54716032, type: 3}
       propertyPath: m_Name
