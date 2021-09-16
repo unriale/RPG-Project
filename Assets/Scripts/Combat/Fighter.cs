@@ -14,7 +14,7 @@ namespace RPG.Combat
 
         Health target;
         Animator animator;
-        float timeSinceLastAttack = 0;
+        float timeSinceLastAttack = Mathf.Infinity;
 
         private void Start()
         {
@@ -79,12 +79,18 @@ namespace RPG.Combat
             target = null;
         }
 
-        public bool CanAttack(CombatTarget combatTarget)
+
+        /// <summary>
+        /// If a gameObject we want to attack is not dead
+        /// </summary>
+        /// <param name="combatTarget">A game object to attack</param>
+        /// <returns>True if a GO is alive, false otherwise</returns>
+        public bool CanAttack(GameObject combatTarget)
         {
             return !combatTarget.GetComponent<Health>().IsDead();
         }
 
-        public void Attack(CombatTarget combatTarget)
+        public void Attack(GameObject combatTarget)
         {
             GetComponent<ActionScheduler>().StartAction(this);
             target = combatTarget.GetComponent<Health>();
