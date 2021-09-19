@@ -45,7 +45,7 @@ namespace RPG.Movement
 
         public void Cancel()
         {
-            print("Stop");
+            print($"{gameObject.name} was stopped");
             navMeshAgent.isStopped = true;
         }
 
