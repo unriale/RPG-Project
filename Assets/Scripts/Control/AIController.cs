@@ -17,6 +17,7 @@ namespace Core
         [SerializeField] float waypointTolerance = 1f;
         [Tooltip("Time in seconds to stay at a waypoint")] 
         [SerializeField] float dwellWaypointTime = 3f;
+        [Range(0, 1)] [SerializeField] float patrolSpeedFraction = 0.2f;
 
         Fighter fighter;
         GameObject player;
@@ -42,7 +43,6 @@ namespace Core
             if (health.IsDead()) return;
             if (InAttackRangeOfPlayer() && fighter.CanAttack(player))
             {
-
                 AttackBehaviour();
             }
             else if (timeSinceLastSawPlayer <= suspicionTime)
@@ -77,7 +77,7 @@ namespace Core
             }
             if (timeSinceArrivedToWaypoint >= dwellWaypointTime)
             {
-                mover.StartMoveAction(nextPosition);
+                mover.StartMoveAction(nextPosition, patrolSpeedFraction);
             }
         }
 
