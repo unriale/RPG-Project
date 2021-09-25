@@ -38,5 +38,10 @@ namespace RPG.SceneManagement
             }
         }
 
+        public void FadeOutImmediate()
+        {
+            canvasGroup.alpha = 1;
+        }
+
     }
 }
