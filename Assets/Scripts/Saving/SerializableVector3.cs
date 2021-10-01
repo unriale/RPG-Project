@@ -1,11 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using UnityEngine;
 
 namespace RPG.Saving
 {
-    [System.Serializable]
+    [Serializable]
     public class SerializableVector3
     {
-        float x, y, z;
+        public float x, y, z; //get set
 
         public SerializableVector3(Vector3 vector)
         {

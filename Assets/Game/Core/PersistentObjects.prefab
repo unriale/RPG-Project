@@ -250,7 +250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5130872008525541605, guid: 50a59315bcc4d6b449525096aa82b941, type: 3}
       propertyPath: m_Name
-      value: Saving
+      value: SavingSystem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50a59315bcc4d6b449525096aa82b941, type: 3}

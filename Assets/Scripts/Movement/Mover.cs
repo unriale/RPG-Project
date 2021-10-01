@@ -58,7 +58,8 @@ namespace RPG.Movement
             animator.SetFloat("forwardSpeed", speed);
         }
 
-        [System.Serializable]
+
+        [Serializable]
         struct MoverSaveData
         {
             public SerializableVector3 position;
@@ -76,11 +77,10 @@ namespace RPG.Movement
         public void RestoreState(object state)
         {
             MoverSaveData data = (MoverSaveData)state;
-            if (navMeshAgent == null) return;
-            navMeshAgent.enabled = false;
+            GetComponent<NavMeshAgent>().enabled = false;
             transform.position = data.position.ToVector();
             transform.eulerAngles = data.rotation.ToVector();
-            navMeshAgent.enabled = true;
+            GetComponent<NavMeshAgent>().enabled = true;
             print(transform.eulerAngles);
         }
     }
