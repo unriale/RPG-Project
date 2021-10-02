@@ -1491,3 +1491,668 @@ System memory in use after: 131.2 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1857.
 Total: 7.537400 ms (FindLiveObjects: 2.117900 ms CreateObjectMapping: 0.318100 ms MarkObjects: 4.839400 ms  DeleteObjects: 0.258100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1268.420468 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Club/Prefab
+  artifactKey: Guid(c0c4fa86e4186b842ae386939303d8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Club/Prefab using Guid(c0c4fa86e4186b842ae386939303d8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb84383c6c8a8567f8e7ea2b16e3dea') in 0.010960 seconds
+  Import took 0.014276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005773 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Club/Prefab
+  artifactKey: Guid(c0c4fa86e4186b842ae386939303d8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Club/Prefab using Guid(c0c4fa86e4186b842ae386939303d8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb84383c6c8a8567f8e7ea2b16e3dea') in 0.002482 seconds
+  Import took 0.005410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065416 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Club/Prefab/SM_Wep_Club_01.prefab
+  artifactKey: Guid(e5979c3ac636334478a20376bafe57d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Club/Prefab/SM_Wep_Club_01.prefab using Guid(e5979c3ac636334478a20376bafe57d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120ff5d44b2c210d887617f5313b86e8') in 0.067267 seconds
+  Import took 0.129021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.415282 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow
+  artifactKey: Guid(839620950291ccd47821d7a7d9dc8142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow using Guid(839620950291ccd47821d7a7d9dc8142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0219019f591e03ea7a0e129ea30c96') in 0.008249 seconds
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984694 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab
+  artifactKey: Guid(21ea3bf139e185243bc99596d1668e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab using Guid(21ea3bf139e185243bc99596d1668e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4979885703314f794abf47f06489b79') in 0.002829 seconds
+  Import took 0.006065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.907119 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Simple Bow.prefab
+  artifactKey: Guid(7f105c0c272e6c146b4b41cdc53ea356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Simple Bow.prefab using Guid(7f105c0c272e6c146b4b41cdc53ea356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4d972a01557dfff993d44feda35f20') in 0.015562 seconds
+  Import took 0.082223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.129735 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Pitchfork
+  artifactKey: Guid(f5ccdaebd8250b0438b0dc5c13c13641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Pitchfork using Guid(f5ccdaebd8250b0438b0dc5c13c13641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4f64c83ea5c1b969762335a55c8e1d') in 0.010194 seconds
+  Import took 0.013239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.073543 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab
+  artifactKey: Guid(eeea6dd6475a8b94f9c2db3cf8ea1bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab using Guid(eeea6dd6475a8b94f9c2db3cf8ea1bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bebcd7ca311fe37119acd090fc12674') in 0.002413 seconds
+  Import took 0.061726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab
+  artifactKey: Guid(ba790c6fd6f7ab24d88313172ed55d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab using Guid(ba790c6fd6f7ab24d88313172ed55d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca3e6857c675570fbb9d1c90f92a168') in 0.012934 seconds
+  Import took 0.015844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.525627 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Rod of Death
+  artifactKey: Guid(a21d3be60a2bfaa4bac1c86a23ab8632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Rod of Death using Guid(a21d3be60a2bfaa4bac1c86a23ab8632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9410999be9cf0a5d47c907b03a587606') in 0.008181 seconds
+  Import took 0.070800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.759594 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab
+  artifactKey: Guid(50563f2c0d5cf9f4ca61d79e81871ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab using Guid(50563f2c0d5cf9f4ca61d79e81871ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b4b35152edc02c3921ce2a2cb854fe') in 0.002485 seconds
+  Import took 0.005299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069149 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab
+  artifactKey: Guid(413c47d84d1a20046911d7de6f977649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab using Guid(413c47d84d1a20046911d7de6f977649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e869f27bdcf2875f247c36df521ed6b') in 0.019254 seconds
+  Import took 0.037493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.193934 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Club
+  artifactKey: Guid(fd3a78529936b6149acad460f8086aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Club using Guid(fd3a78529936b6149acad460f8086aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77713233273f7e80301bb8a7b1bdb18a') in 0.007664 seconds
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.896273 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model
+  artifactKey: Guid(577126194f0289c478cfe2a93bf62897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model using Guid(577126194f0289c478cfe2a93bf62897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bb05cbf47055a0f94c50fd9d6947cf') in 0.007269 seconds
+  Import took 0.010444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071092 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx
+  artifactKey: Guid(4f18c80df16a4ae4194559bba2f3ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx using Guid(4f18c80df16a4ae4194559bba2f3ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ca7b11b724566889a7acc9d0933bc9') in 0.068549 seconds
+  Import took 0.071467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png
+  artifactKey: Guid(829e6fcc12b43aa489f42177cc0bb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png using Guid(829e6fcc12b43aa489f42177cc0bb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd815de00d8d58b40c34d18fd0ce46803') in 0.015406 seconds
+  Import took 0.017494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat
+  artifactKey: Guid(e6969e6a3fc702b4ca4e7564bb1bdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat using Guid(e6969e6a3fc702b4ca4e7564bb1bdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03657d30eaa8754322b95b05a698e512') in 0.045497 seconds
+  Import took 0.109662 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 2.016600 ms (FindLiveObjects: 0.189000 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.661500 ms  DeleteObjects: 0.118500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 599.548939 seconds.
+  path: Assets/Game/Characters/Character.prefab
+  artifactKey: Guid(6d4cc850061137b4e9e2ea9a54716032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Character.prefab using Guid(6d4cc850061137b4e9e2ea9a54716032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a581cd2ee087db1a07bae7c5685ba') in 0.029188 seconds
+  Import took 0.032327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Game/Characters/Enemy.prefab
+  artifactKey: Guid(35ccbc2f8a40fe74eb63236f304e2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Enemy.prefab using Guid(35ccbc2f8a40fe74eb63236f304e2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15709e5b5c346d04b8defd2a7350cca7') in 0.065055 seconds
+  Import took 0.068630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000541 seconds.
+  path: Assets/Game/Core/Core.prefab
+  artifactKey: Guid(4be1acd540928ce40baaf7e74182838f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Core.prefab using Guid(4be1acd540928ce40baaf7e74182838f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caa43fe513a6266bfd474b1eeac48b6') in 0.049073 seconds
+  Import took 0.052591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341380 seconds.
+  path: Assets/Game/Pickups/Sword Pickup.prefab
+  artifactKey: Guid(b17c9914379952b48af682f2e206efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Sword Pickup.prefab using Guid(b17c9914379952b48af682f2e206efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8854c9a8c53522067a203e5f5ec9c157') in 0.020922 seconds
+  Import took 0.024211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.337800 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.104100 ms MarkObjects: 1.877400 ms  DeleteObjects: 0.104400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.322168 seconds.
+  path: Assets/Game/Weapons/Sword/Sword.asset
+  artifactKey: Guid(2ab822fbd5a4f7746b94cf0307ad67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Sword/Sword.asset using Guid(2ab822fbd5a4f7746b94cf0307ad67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293db0f6b8fbfbaeb12adb932e4d9cc3') in 0.022208 seconds
+  Import took 0.081892 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 2.375700 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.051200 ms MarkObjects: 1.992300 ms  DeleteObjects: 0.112500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.298989 seconds.
+  path: Assets/Game/Weapons/Sword/Sword.asset
+  artifactKey: Guid(2ab822fbd5a4f7746b94cf0307ad67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Sword/Sword.asset using Guid(2ab822fbd5a4f7746b94cf0307ad67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2edb1418d2b4e155a491d71941a80') in 0.024805 seconds
+  Import took 0.029391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010798 seconds.
+  path: Assets/Game/Weapons/Sword/Sword.asset
+  artifactKey: Guid(2ab822fbd5a4f7746b94cf0307ad67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Sword/Sword.asset using Guid(2ab822fbd5a4f7746b94cf0307ad67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2edb1418d2b4e155a491d71941a80') in 0.011752 seconds
+  Import took 0.015594 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1905.
+Total: 2.165000 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.104000 ms MarkObjects: 1.725300 ms  DeleteObjects: 0.102700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 435.178587 seconds.
+  path: Assets/Game/Weapons/Bow
+  artifactKey: Guid(154d2ec817d30dd48b7130f1c1510788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow using Guid(154d2ec817d30dd48b7130f1c1510788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9e9df3adc7555e0aaab35f60597fda') in 0.012012 seconds
+  Import took 0.327583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.098988 seconds.
+  path: Assets/Game/Weapons/Bow/Bow Pickup.prefab
+  artifactKey: Guid(8098d5d61eac8914ba89fe9015e53314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow Pickup.prefab using Guid(8098d5d61eac8914ba89fe9015e53314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de7886f3639611a0f81c5ab81cd3450') in 0.032285 seconds
+  Import took 0.044906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.002745 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset
+  artifactKey: Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset using Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9b1f8e386187da1fda6dec38964802') in 0.003728 seconds
+  Import took 0.006729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017679 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset
+  artifactKey: Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset using Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9b1f8e386187da1fda6dec38964802') in 0.004115 seconds
+  Import took 0.006940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.987428 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset
+  artifactKey: Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset using Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7ddf1a321d1020263b581a8ae517ed') in 0.002755 seconds
+  Import took 0.063052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.737015 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset
+  artifactKey: Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset using Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ac40cca4bdb074900121083d61941d') in 0.002924 seconds
+  Import took 0.014352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007532 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset
+  artifactKey: Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Bow.asset using Guid(99861bca964763c49936b49d9b1327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ac40cca4bdb074900121083d61941d') in 0.003332 seconds
+  Import took 0.007300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1907.
+Total: 2.173400 ms (FindLiveObjects: 0.239100 ms CreateObjectMapping: 0.107000 ms MarkObjects: 1.716900 ms  DeleteObjects: 0.108800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 3.272600 ms (FindLiveObjects: 0.205000 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.783300 ms  DeleteObjects: 0.211900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.072342 seconds.
+  path: Assets/Game/Weapons/Bow/Bow Pickup.prefab
+  artifactKey: Guid(8098d5d61eac8914ba89fe9015e53314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow Pickup.prefab using Guid(8098d5d61eac8914ba89fe9015e53314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb20ccb969eb1efb0c79205d0891825') in 0.093916 seconds
+  Import took 0.097928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.370000 ms (FindLiveObjects: 0.213700 ms CreateObjectMapping: 0.075600 ms MarkObjects: 1.957100 ms  DeleteObjects: 0.119100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.929567 seconds.
+  path: Assets/Game/Weapons/Bow/Equipped Bow.prefab
+  artifactKey: Guid(501b60632f693284cae39744869dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Equipped Bow.prefab using Guid(501b60632f693284cae39744869dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8890bd361febbf9a129039a290c916f2') in 0.085650 seconds
+  Import took 0.088909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.524418 seconds.
+  path: Assets/Game/Weapons/Bow/Bow.asset
+  artifactKey: Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow.asset using Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd78a49a181b0bffbe37092b402ae0d') in 0.004178 seconds
+  Import took 0.007252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024405 seconds.
+  path: Assets/Game/Weapons/Bow/Bow.asset
+  artifactKey: Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow.asset using Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd78a49a181b0bffbe37092b402ae0d') in 0.003604 seconds
+  Import took 0.006397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.373034 seconds.
+  path: Assets/Game/Weapons/Bow/Bow Override Controller.overrideController
+  artifactKey: Guid(472fd37fed8c38e48aa97ee891cd4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow Override Controller.overrideController using Guid(472fd37fed8c38e48aa97ee891cd4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1d3ece3d05b5ebef5a9a7d0aab3aa6') in 0.008511 seconds
+  Import took 0.011781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019369 seconds.
+  path: Assets/Game/Weapons/Bow/Bow Override Controller.overrideController
+  artifactKey: Guid(472fd37fed8c38e48aa97ee891cd4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow Override Controller.overrideController using Guid(472fd37fed8c38e48aa97ee891cd4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1d3ece3d05b5ebef5a9a7d0aab3aa6') in 0.003750 seconds
+  Import took 0.007417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.978602 seconds.
+  path: Assets/Game/Weapons/Bow/Bow Override Controller.overrideController
+  artifactKey: Guid(472fd37fed8c38e48aa97ee891cd4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow Override Controller.overrideController using Guid(472fd37fed8c38e48aa97ee891cd4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aff268b8a3ab04f4cdb5273b5d14a50') in 0.011260 seconds
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Game/Weapons/Bow/Bow.asset
+  artifactKey: Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow.asset using Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c00e85757adbd1eccce2aa4779748b') in 0.011098 seconds
+  Import took 0.016090 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 2.152300 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.100700 ms MarkObjects: 1.709600 ms  DeleteObjects: 0.115900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.663408 seconds.
+  path: Assets/Game/Weapons/Bow/Bow.asset
+  artifactKey: Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow.asset using Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ce7aa2730e6d0fb4ce06c8cb9e0ac') in 0.023305 seconds
+  Import took 0.026648 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 2.227700 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.095800 ms MarkObjects: 1.760600 ms  DeleteObjects: 0.106700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.475219 seconds.
+  path: Assets/Game/Weapons/Bow/Bow.asset
+  artifactKey: Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Bow.asset using Guid(f9a3ed88aa582e546ac9855cd4a5762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8245ec668520e6e2ca9c13333f00199c') in 0.025987 seconds
+  Import took 0.029488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 1.977600 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.091100 ms MarkObjects: 1.575000 ms  DeleteObjects: 0.097600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.670630 seconds.
+  path: Assets/Game/Weapons/Bow/Equipped Bow.prefab
+  artifactKey: Guid(501b60632f693284cae39744869dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Equipped Bow.prefab using Guid(501b60632f693284cae39744869dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31170d22eb83e5db260cc834fa64d755') in 0.064571 seconds
+  Import took 0.067226 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 3.282600 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.232200 ms MarkObjects: 2.659500 ms  DeleteObjects: 0.143500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.417036 seconds.
+  path: Assets/Game/Weapons/Bow/Equipped Bow.prefab
+  artifactKey: Guid(501b60632f693284cae39744869dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Bow/Equipped Bow.prefab using Guid(501b60632f693284cae39744869dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e757808aedeffd04fd313f9243c9996a') in 0.068489 seconds
+  Import took 0.071922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.887406 seconds.
+  path: Assets/Game/Pickups/Bow Pickup.prefab
+  artifactKey: Guid(8098d5d61eac8914ba89fe9015e53314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Bow Pickup.prefab using Guid(8098d5d61eac8914ba89fe9015e53314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c01534580a39796058862e8747b15') in 0.022278 seconds
+  Import took 0.088430 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 2.479800 ms (FindLiveObjects: 0.253300 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.005200 ms  DeleteObjects: 0.115400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1927.
+Total: 2.648200 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.146100 ms MarkObjects: 2.129800 ms  DeleteObjects: 0.114400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
