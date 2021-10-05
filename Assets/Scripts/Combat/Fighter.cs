@@ -13,6 +13,7 @@ namespace RPG.Combat
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] Weapon defaultWeapon = null;
+        [SerializeField] string defaultWeaponName = null;
 
         Health target;
         Animator animator;
@@ -24,6 +25,8 @@ namespace RPG.Combat
             animator = GetComponent<Animator>();
             EquipWeapon(defaultWeapon);
         }
+
+
 
         private void Update()
         {
