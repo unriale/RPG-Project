@@ -33,7 +33,7 @@ namespace RPG.Combat
         private void ShowPickup(bool shouldShow)
         {
             GetComponent<Collider>().enabled = shouldShow;
-            foreach (Transform child in transform)
+            foreach(Transform child in transform)
             {
                 child.gameObject.SetActive(shouldShow);
             }
