@@ -59,8 +59,21 @@ PrefabInstance:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 11400000, guid: 71b07fd019c0ea94a851486c900068dc, type: 2}
+    - target: {fileID: 5045503361606496502, guid: b17c9914379952b48af682f2e206efe9, type: 3}
+      propertyPath: respawnable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045503361606496502, guid: b17c9914379952b48af682f2e206efe9, type: 3}
+      propertyPath: weaponPickup
+      value: 
+      objectReference: {fileID: 5902342623106281112}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b17c9914379952b48af682f2e206efe9, type: 3}
+--- !u!1 &5902342623106281112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9977506811478390, guid: b17c9914379952b48af682f2e206efe9, type: 3}
+  m_PrefabInstance: {fileID: 5893566103675449326}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5902342623106281095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9977506811478377, guid: b17c9914379952b48af682f2e206efe9, type: 3}

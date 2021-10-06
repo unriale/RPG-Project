@@ -46,6 +46,7 @@ namespace RPG.SceneManagement
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
             wrapper.Save();
+            wrapper.Load(); // for fixing a bug with an archer
             yield return new WaitForSeconds(waitForLoad);
             yield return fader.FadeIn();
             Destroy(gameObject);

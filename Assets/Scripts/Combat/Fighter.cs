@@ -7,26 +7,23 @@ using System;
 
 namespace RPG.Combat
 {
-    public class Fighter : MonoBehaviour, IAction
+    public class Fighter : MonoBehaviour, IAction, ISaveable
     {
         [SerializeField] float timeBetweenAttacks = 1f;
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] Weapon defaultWeapon = null;
-        [SerializeField] string defaultWeaponName = null;
+        [SerializeField] string defaultWeaponName = "Unarmed";
 
         Health target;
-        Animator animator;
         float timeSinceLastAttack = Mathf.Infinity;
         Weapon currentWeapon = null;
 
         private void Start()
         {
-            animator = GetComponent<Animator>();
-            EquipWeapon(defaultWeapon);
+            if(!currentWeapon)
+                EquipWeapon(defaultWeapon);
         }
-
-
 
         private void Update()
         {
@@ -50,7 +47,7 @@ namespace RPG.Combat
         public void EquipWeapon(Weapon weapon)
         {
             currentWeapon = weapon;
-            weapon.Spawn(rightHandTransform, leftHandTransform, animator);
+            weapon.Spawn(rightHandTransform, leftHandTransform, GetComponent<Animator>());
         }
 
         private void AttackBehaviour()
@@ -66,8 +63,8 @@ namespace RPG.Combat
 
         private void AttackTrigger()
         {
-            animator.ResetTrigger("stopAttack");
-            animator.SetTrigger("attack");
+            GetComponent<Animator>().ResetTrigger("stopAttack");
+            GetComponent<Animator>().SetTrigger("attack");
         }
 
         /// <summary>
@@ -81,8 +78,8 @@ namespace RPG.Combat
 
         private void StopAttack()
         {
-            animator.ResetTrigger("attack");
-            animator.SetTrigger("stopAttack");
+            GetComponent<Animator>().ResetTrigger("attack");
+            GetComponent<Animator>().SetTrigger("stopAttack");
         }
 
         public void Cancel()
@@ -126,6 +123,18 @@ namespace RPG.Combat
         void Shoot()
         {
             Hit();
+        }
+
+        public object CaptureState()
+        {
+            return currentWeapon.name;
+        }
+
+        public void RestoreState(object state)
+        {
+            string weaponName = (string)state;
+            Weapon weapon = Resources.Load<Weapon>(weaponName);
+            EquipWeapon(weapon);
         }
     }
 }

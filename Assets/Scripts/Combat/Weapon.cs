@@ -14,7 +14,7 @@ namespace RPG.Combat
         [SerializeField] bool isRightHanded = true;
         [SerializeField] Projectile projectile = null;
 
-        const string weaponName = "Weapon";
+        [SerializeField] const string weaponName = "Weapon";
 
         public float GetWeaponRange() => range;
 
@@ -36,7 +36,7 @@ namespace RPG.Combat
         {
             DestroyOldWeapon(rightHand, leftHand);
 
-            if(equippedWeapon != null)
+            if (equippedWeapon != null)
             {
                 Transform handTransform = GetHandTransform(rightHand, leftHand);
                 GameObject weapon = Instantiate(equippedWeapon, handTransform);

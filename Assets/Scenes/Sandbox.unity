@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 28563a62-2220-453e-b111-ab44f1d4ac0a
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: c67881a5-6262-4db5-b37a-2e23766d0927
@@ -609,6 +613,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: d39f5e92-f9b3-4dc6-9f4f-0b62cc8927e0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -1173,6 +1181,10 @@ PrefabInstance:
       propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: d3d844a88e840b641abab1dee68eb452, type: 2}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: c59df125-15bf-4afb-a864-da71a645a602
@@ -1489,6 +1501,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: bec94f9d-4fc3-42d8-80a4-5463831de2e6
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 4921ad91-ed77-4d28-8c36-744f15c36ec4
@@ -1628,6 +1644,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: f1e6b84d-7a08-40b8-b462-a42cb4a1666d
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -1773,6 +1793,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: cf4768d3-46d7-41d7-b8eb-4bf1fb613d3d
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -2081,6 +2105,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: b48b15b2-d9a3-4622-9f4a-5c6bf2c59c1c
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 69c8c8aa-104f-4b64-a203-0a44527fec27
@@ -2180,6 +2208,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: f97b45d4-cf7d-4d62-b147-e15a2d46b29f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -3452,6 +3484,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 91333973-6b1d-4d34-9e31-85f4a338e23c
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 78f00538-b51e-43c2-a3c0-d62062501b7b
@@ -3817,6 +3853,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 5961f046-88a1-4fc1-be76-ee558e7f2db6
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 6874de99-c180-42e0-ab59-f71f8a913ce0
@@ -4017,6 +4057,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: e63aa1db-6909-4d20-acfa-6386740a5ccd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -4298,6 +4342,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 41d8bd94-0b7f-4e22-b5d2-075fdfbebc85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -4909,6 +4957,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: b72d73be-cef4-4ee7-ba0c-ace03170fded
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 6eba64ae-f782-4d1e-b62f-0f0e437c3d06
@@ -5059,6 +5111,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 8c9b4852-4d70-4555-86a4-aa27adc6b176
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -5479,6 +5535,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: e881a8b5-ac3f-4c4b-9af9-94db7922c5b3
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 0cca5416-3596-4417-b114-5fd56f24d65c
@@ -5571,6 +5631,10 @@ PrefabInstance:
       propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: 47b567698fadd1c4cb93f7ccdd1648fb, type: 2}
+    - target: {fileID: 3352421207691945236, guid: 644b6a0ecaf83cf42ac4744d8f6ee94c, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 5370386654667761370, guid: 644b6a0ecaf83cf42ac4744d8f6ee94c, type: 3}
       propertyPath: m_Name
       value: Archer (1)
@@ -5688,6 +5752,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 23eb8ad0-12a7-4152-a10a-9d35a41f1a66
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 80d6ce74-b774-4e21-9249-806ef9eed782
@@ -5781,6 +5849,10 @@ PrefabInstance:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 11400000, guid: 71b07fd019c0ea94a851486c900068dc, type: 2}
+    - target: {fileID: 1715622652321963800, guid: f36a2cf083c91364cb75551db65825d4, type: 3}
+      propertyPath: respawnable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5902342623106281095, guid: f36a2cf083c91364cb75551db65825d4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5933,6 +6005,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 14f50a92-d362-4240-bd67-8d165e75650c
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -6749,6 +6825,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 54278127-058b-4cef-9d76-b8f33c9bfaf5
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 726434b2-23ad-4736-a615-0e706b0d0bff
@@ -6883,6 +6963,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: f48542a8-dd39-4f93-8025-3943278a4ec9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -7224,6 +7308,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 7b532611-f8aa-44cf-bd71-0b74e1ca3568
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -7742,7 +7830,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628934635}
-  m_LocalRotation: {x: -0.0038476265, y: 0.8178467, z: 0.005468862, w: 0.5753973}
+  m_LocalRotation: {x: -0.0038421345, y: 0.8184242, z: 0.0054727267, w: 0.57457566}
   m_LocalPosition: {x: -5.15, y: 1.83, z: 4.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8076,6 +8164,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: a9cf50da-a710-49ad-875b-5add07229ca2
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: e50843e3-3246-470a-9309-72d7adff1666
@@ -8303,6 +8395,10 @@ PrefabInstance:
     - target: {fileID: 4125160328356121623, guid: 1dc97bbe598479b4896f981c100a9365, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158575171023764872, guid: 1dc97bbe598479b4896f981c100a9365, type: 3}
+      propertyPath: respawnTime
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dc97bbe598479b4896f981c100a9365, type: 3}
@@ -8881,7 +8977,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879325193}
-  m_LocalRotation: {x: -0.01119945, y: 0.6467126, z: 0.009497635, w: 0.7625925}
+  m_LocalRotation: {x: -0.011273544, y: 0.6407146, z: 0.009409535, w: 0.76763874}
   m_LocalPosition: {x: 17.588, y: 1.54, z: -0.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8986,6 +9082,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 6c062f7d-bdd3-46d3-b16a-e472732a564a
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -9575,6 +9675,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 05febb54-b686-4eca-b390-d39739640709
       objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: dfc2b5d8-ca5a-4151-b08a-5422a63b4ebc
@@ -9648,6 +9752,10 @@ PrefabInstance:
     - target: {fileID: 4542116050747883013, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
       value: 7cc51fb9-f4e6-4f07-b658-bcdcbf7e22f8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
       objectReference: {fileID: 0}
     - target: {fileID: 8076838080272360470, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: uniqueIdentifier
@@ -10058,15 +10166,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7033770705041243657, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.60044
+      value: 38.634132
       objectReference: {fileID: 0}
     - target: {fileID: 7033770705041243657, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.7904572
+      value: 4.7904706
       objectReference: {fileID: 0}
     - target: {fileID: 7033770705041243657, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.953285
+      value: 42.92195
       objectReference: {fileID: 0}
     - target: {fileID: 7033770705661346373, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_IsActive
@@ -10094,15 +10202,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7033770706313179022, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.60044
+      value: 38.634132
       objectReference: {fileID: 0}
     - target: {fileID: 7033770706313179022, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.7904572
+      value: 4.7904706
       objectReference: {fileID: 0}
     - target: {fileID: 7033770706313179022, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.953285
+      value: 42.92195
       objectReference: {fileID: 0}
     - target: {fileID: 7033770706786878357, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_Name
@@ -10151,6 +10259,10 @@ PrefabInstance:
     - target: {fileID: 7033770706786878358, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061891294067579971, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
+      propertyPath: defaultWeaponName
+      value: Sword
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4be1acd540928ce40baaf7e74182838f, type: 3}
