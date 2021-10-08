@@ -4,13 +4,28 @@ using UnityEngine;
 
 namespace RPG.Resources
 {
-    public class Experience : MonoBehaviour
+    public class Experience : MonoBehaviour, ISaveable
     {
         public float experiencePoints = 0;
 
         public void GainExperience(float experience)
         {
             experiencePoints += experience;
+        }
+
+        public float GetPoints()
+        {
+            return experiencePoints;
+        }
+
+        public object CaptureState()
+        {
+            return experiencePoints;
+        }
+
+        public void RestoreState(object state)
+        {
+            experiencePoints = (float)state;
         }
     }
 }
