@@ -4,11 +4,9 @@ using UnityEngine;
 
 namespace RPG.Stats
 {
-    public enum CharacterClass
+    public enum Stat
     {
-        Player, 
-        Grunt, 
-        Mage, 
-        Archer
+        Health, 
+        ExperienceReward
     }
 }
