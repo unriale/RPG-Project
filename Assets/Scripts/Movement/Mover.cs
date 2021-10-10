@@ -80,7 +80,6 @@ namespace RPG.Movement
             transform.position = data.position.ToVector();
             transform.eulerAngles = data.rotation.ToVector();
             GetComponent<NavMeshAgent>().enabled = true;
-            print(transform.eulerAngles);
         }
     }
 }

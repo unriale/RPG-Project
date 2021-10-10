@@ -23,6 +23,11 @@ namespace RPG.Saving
             RestoreState(LoadFile(fileName));
         }
 
+        public void Delete(string fileName)
+        {
+            File.Delete(GetPathFromSaveFile(fileName));
+        }
+
         public IEnumerator LoadLastScene(string fileName)
         {
             Dictionary<string, object> stateDict = LoadFile(fileName);
