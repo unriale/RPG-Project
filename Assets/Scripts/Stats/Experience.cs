@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,9 +9,12 @@ namespace RPG.Stats
     {
         public float experiencePoints = 0;
 
+        public event Action onExperienceGained;
+
         public void GainExperience(float experience)
         {
             experiencePoints += experience;
+            onExperienceGained();
         }
 
         public float GetPoints()
@@ -25,6 +29,7 @@ namespace RPG.Stats
 
         public void RestoreState(object state)
         {
+            print("Restore XP");
             experiencePoints = (float)state;
         }
     }

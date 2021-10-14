@@ -6,6 +6,7 @@ namespace Core
 {
     public class DestroyAfterEffect : MonoBehaviour
     {
+        [SerializeField] GameObject targetToDestroy = null;
         private ParticleSystem particleSystem = null;
         private void Start()
         {
@@ -14,7 +15,16 @@ namespace Core
         private void Update()
         {
             if (!particleSystem.IsAlive())
-                Destroy(gameObject);
+            {
+                if (targetToDestroy != null)
+                {
+                    Destroy(targetToDestroy);
+                }
+                else
+                {
+                    Destroy(gameObject);
+                }
+            }
         }
     }
 }

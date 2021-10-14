@@ -15,6 +15,7 @@ MonoBehaviour:
   equippedWeapon: {fileID: 564425633072457567, guid: 90064d6c96fc06848accf0142163d0ae, type: 3}
   animatorOverride: {fileID: 22100000, guid: e519803b29be27f40a5c80dcbe87c694, type: 2}
   range: 1
-  damage: 3
+  damage: 5
+  percentageBonus: 50
   isRightHanded: 1
   projectile: {fileID: 0}

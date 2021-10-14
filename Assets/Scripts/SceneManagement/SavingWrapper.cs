@@ -9,15 +9,22 @@ namespace RPG.SceneManagement
     public class SavingWrapper : MonoBehaviour
     {
         const string defaultSaveFile = "save";
-        [SerializeField] private float fadeBeforeSceneLoadSeconds = 0.2f;
 
-        private IEnumerator Start()
+        private void Awake()
         {
+            // to be sure Restore() is called first
+            StartCoroutine(LoadLastScene()); 
+        }
+
+        private IEnumerator LoadLastScene()
+        {
+            yield return FindObjectOfType<SavingSystem>().LoadLastScene(defaultSaveFile);
             Fader fader = FindObjectOfType<Fader>();
             fader.FadeOutImmediate();
-            yield return new WaitForSeconds(fadeBeforeSceneLoadSeconds);
-            yield return FindObjectOfType<SavingSystem>().LoadLastScene(defaultSaveFile);
+            Load(); // TEMP FOR FIXING A BUG WITH ALIVE ARCHER (THAT IS ACTUALLY DEAD...)
+            yield return new WaitForSeconds(1f);
             yield return fader.FadeIn();
+            
         }
 
         private void Update()
