@@ -1068,6 +1068,18 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: f97b45d4-cf7d-4d62-b147-e15a2d46b29f
       objectReference: {fileID: 0}
+    - target: {fileID: 5884572879718849233, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884572879718849233, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884572879718849233, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6545864013733495544, guid: 35ccbc2f8a40fe74eb63236f304e2047, type: 3}
       propertyPath: defaultWeaponName
       value: Unarmed
