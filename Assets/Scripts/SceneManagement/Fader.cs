@@ -10,6 +10,8 @@ namespace RPG.SceneManagement
         [SerializeField] float fadeOutTime;
         [SerializeField] float fadeInTime;
 
+        Coroutine activeCoroutine = null;
+
 
         CanvasGroup canvasGroup;
 
@@ -22,21 +24,34 @@ namespace RPG.SceneManagement
         /// 1 / (time/deltatime) = (deltatime / time) -> alpha val per frame 
         public IEnumerator FadeOut()
         {
-            while (canvasGroup.alpha < 1)
+            return Fade(1);
+        }
+
+
+        public IEnumerator FadeIn()
+        {
+            return Fade(0);
+        }
+
+        private IEnumerator Fade(float target)
+        {
+            if (activeCoroutine != null)
             {
-                canvasGroup.alpha += Time.deltaTime / fadeOutTime;
+                StopCoroutine(activeCoroutine);
+            }
+            activeCoroutine = StartCoroutine(FadeCoroutine(target));
+            yield return activeCoroutine;
+        }
+
+        private IEnumerator FadeCoroutine(float target)
+        {
+            while (!Mathf.Approximately(target, canvasGroup.alpha))
+            {
+                canvasGroup.alpha = Mathf.MoveTowards(canvasGroup.alpha, target, Time.deltaTime / fadeOutTime);
                 yield return null;
             }
         }
 
-        public IEnumerator FadeIn()
-        {
-            while (canvasGroup.alpha > 0)
-            {
-                canvasGroup.alpha -= Time.deltaTime / fadeInTime;
-                yield return null;
-            }
-        }
 
         public void FadeOutImmediate()
         {

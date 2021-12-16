@@ -76,8 +76,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48257225cd6aa884298bae83696eddba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitForLoad: 0.5
   sceneToLoad: -1
   spawnPoint: {fileID: 3233718756758449460}
+  destination: 0
 --- !u!54 &6880974140207090674
 Rigidbody:
   m_ObjectHideFlags: 0

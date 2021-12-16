@@ -73,19 +73,12 @@ namespace RPG.Control
 
         private bool InteractWithUI()
         {
-            try
+            if (EventSystem.current.IsPointerOverGameObject())
             {
-                if (EventSystem.current.IsPointerOverGameObject())
-                {
-                    SetCursor(CursorType.UI);
-                    return true;
-                }
-                return false;
+                SetCursor(CursorType.UI);
+                return true;
             }
-            catch
-            {
-                return false;
-            }
+            return false;
         }
 
 
