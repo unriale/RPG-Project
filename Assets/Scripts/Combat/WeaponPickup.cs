@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using RPG.Control;
+using RPG.Attributes;
 
 namespace RPG.Combat
 {
@@ -10,19 +11,28 @@ namespace RPG.Combat
         [SerializeField] WeaponConfig weapon;
         [SerializeField] bool respawnable = false;
         [SerializeField] float respawnTime = 5f;
+        [SerializeField] float healthToRestore = 0;
 
 
         private void OnTriggerEnter(Collider other)
         {
             if(other.gameObject.tag == "Player")
             {
-                Pickup(other.GetComponent<Fighter>());
+                Pickup(other.gameObject);
             }
         }
 
-        private void Pickup(Fighter fighter)
+        private void Pickup(GameObject subject)
         {
-            fighter.EquipWeapon(weapon);
+            if(weapon != null)
+            {
+                subject.GetComponent<Fighter>().EquipWeapon(weapon);
+            }
+            if(healthToRestore > 0)
+            {
+                subject.GetComponent<Health>().Heal(healthToRestore);
+            }
+            
             if (!respawnable)
                 Destroy(gameObject);
             else
@@ -49,7 +59,7 @@ namespace RPG.Combat
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Pickup(playerController.GetComponent<Fighter>());
+                Pickup(playerController.gameObject);
             }
             return true;
         }
