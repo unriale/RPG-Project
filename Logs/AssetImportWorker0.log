@@ -15,11 +15,11 @@ D:/UnityProjects/Games/RPG-Project-github/RPG-Project-242264e3876104baf11fee03d4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62224
+61502
 Successfully changed project path to: D:/UnityProjects/Games/RPG-Project-github/RPG-Project-242264e3876104baf11fee03d4886c3538b765c3
 D:/UnityProjects/Games/RPG-Project-github/RPG-Project-242264e3876104baf11fee03d4886c3538b765c3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 185.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,24 +35,24 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.248740 seconds.
+Registered in 0.005648 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.054 seconds
+- Completed reload, in  3.789 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.050306 seconds.
+Registered in 0.020251 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -62,17 +62,475 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.519 seconds
+- Completed reload, in  1.729 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1309 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
+System memory in use before: 79.8 MB.
+System memory in use after: 79.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 2.117100 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.115100 ms MarkObjects: 1.519500 ms  DeleteObjects: 0.114900 ms)
+Total: 2.746400 ms (FindLiveObjects: 0.349900 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.118500 ms  DeleteObjects: 0.180400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings
+  artifactKey: Guid(40dd8cc9b6443a34fb7dd3c39d08074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings using Guid(40dd8cc9b6443a34fb7dd3c39d08074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679d620f6ead51a5f4e2e8761882b31e') in 0.022627 seconds
+  Import took 0.083667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_02.prefab
+  artifactKey: Guid(2767c12992d890f44b14f433fe854668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_02.prefab using Guid(2767c12992d890f44b14f433fe854668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b00f8ff3b40c116a50b0d822154a31') in 0.206437 seconds
+  Import took 0.262225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed
+  artifactKey: Guid(361af5be93a94d047835c7a3fc2e0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed using Guid(361af5be93a94d047835c7a3fc2e0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d5a59e608bf27c658740908fafb928') in 0.011412 seconds
+  Import took 0.072402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab
+  artifactKey: Guid(cd87e5026d1695148aabe96121c526ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab using Guid(cd87e5026d1695148aabe96121c526ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd76d56d5abd15ae43c62cea23de7a3') in 0.024296 seconds
+  Import took 0.035338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab
+  artifactKey: Guid(2b519101e10d4a74580d4c86ac9e03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab using Guid(2b519101e10d4a74580d4c86ac9e03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcca5c700de1d4e3133ba9e46e7d6d8a') in 0.130054 seconds
+  Import took 0.153799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab
+  artifactKey: Guid(71442e8cd72511e4fabb72f1a2cc82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab using Guid(71442e8cd72511e4fabb72f1a2cc82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e0e6b38e5e94f5d019b21f919b61a9') in 0.015919 seconds
+  Import took 0.036898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_05.prefab
+  artifactKey: Guid(386f40ad68cdd3c4fbcb471ef2d93772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_05.prefab using Guid(386f40ad68cdd3c4fbcb471ef2d93772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5482f6f2ab713e0606dee9bfd2f611') in 0.017468 seconds
+  Import took 0.036773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.477132 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab
+  artifactKey: Guid(71442e8cd72511e4fabb72f1a2cc82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_04.prefab using Guid(71442e8cd72511e4fabb72f1a2cc82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cca70df8848d54d0714c3f21927fa52') in 0.016555 seconds
+  Import took 0.053986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.992626 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab
+  artifactKey: Guid(2b519101e10d4a74580d4c86ac9e03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab using Guid(2b519101e10d4a74580d4c86ac9e03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73feed7eeeacc521a05315067949b296') in 0.013274 seconds
+  Import took 0.031651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.876037 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture
+  artifactKey: Guid(3f958f6d490fa3c409a72ba1b872ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture using Guid(3f958f6d490fa3c409a72ba1b872ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055691c0c6cd737ef221f2b13919ec34') in 0.005810 seconds
+  Import took 0.053435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731334 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs
+  artifactKey: Guid(441e217b814e36b4d88b0d92b15c533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs using Guid(441e217b814e36b4d88b0d92b15c533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567590d8d85317dc4e4b2f002f83baae') in 0.005627 seconds
+  Import took 0.060129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058077 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01a.prefab
+  artifactKey: Guid(af46e0e24402dfa49aea336191bc47ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01a.prefab using Guid(af46e0e24402dfa49aea336191bc47ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8303a5a942eeada3fa137acd9b509f') in 0.052970 seconds
+  Import took 0.095116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab
+  artifactKey: Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab using Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd18d45ebeb366c4c37a98e383386993') in 0.039604 seconds
+  Import took 0.075759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.905383 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_ladder_01.prefab
+  artifactKey: Guid(7087784e228be8745af45599a5130532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_ladder_01.prefab using Guid(7087784e228be8745af45599a5130532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f593ac9b2b6b6a34866887dcb2085c40') in 0.029986 seconds
+  Import took 0.071744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.371298 seconds.
+  path: Assets/LALA/DARK_HOUSE.mat
+  artifactKey: Guid(00d06d76110b58240bb3e81084efd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/DARK_HOUSE.mat using Guid(00d06d76110b58240bb3e81084efd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3231a65881133d693c85c5c2309d68') in 0.051705 seconds
+  Import took 0.077196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.492767 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab
+  artifactKey: Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab using Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f82777888ca251574b273542ea1c1a') in 0.165331 seconds
+  Import took 0.196892 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1297 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 15.644500 ms (FindLiveObjects: 1.414700 ms CreateObjectMapping: 0.512500 ms MarkObjects: 13.602300 ms  DeleteObjects: 0.090100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.699193 seconds.
+  path: Assets/LALA/DARK_HOUSE.mat
+  artifactKey: Guid(00d06d76110b58240bb3e81084efd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/DARK_HOUSE.mat using Guid(00d06d76110b58240bb3e81084efd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90510919f3fa49c44b16810f5d49fd0a') in 0.724568 seconds
+  Import took 0.827542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.002270 seconds.
+  path: Assets/RPGPP_LT/Prefabs
+  artifactKey: Guid(5418b837466e9e540a4c9142c8646667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs using Guid(5418b837466e9e540a4c9142c8646667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf8f39f048db93ba3bdbab847eb2770') in 0.024226 seconds
+  Import took 0.078136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.523560 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_01.prefab
+  artifactKey: Guid(f274f0fb5e5bc294ca9a0ff4cf1f0ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_01.prefab using Guid(f274f0fb5e5bc294ca9a0ff4cf1f0ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9237e60b98e9db6a0e5d01918f4905') in 0.104549 seconds
+  Import took 0.124477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.963698 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_open_01.prefab
+  artifactKey: Guid(5fb4dbc1b7c07b9418845eb61970d9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_open_01.prefab using Guid(5fb4dbc1b7c07b9418845eb61970d9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a91075c8f65b5a6344b778cf5f1bcee') in 0.048501 seconds
+  Import took 0.100629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.798421 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches
+  artifactKey: Guid(78a57f86b90fd7d43b80a4972f729ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches using Guid(78a57f86b90fd7d43b80a4972f729ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f69f77df525ca3bca205a6626944aa') in 0.016315 seconds
+  Import took 0.096495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005665 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab
+  artifactKey: Guid(94003cdd02bfa0849b07108d63f10e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab using Guid(94003cdd02bfa0849b07108d63f10e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e129cfc0db66207d337482fc332a7ac') in 0.084645 seconds
+  Import took 0.103909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.183734 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab
+  artifactKey: Guid(94003cdd02bfa0849b07108d63f10e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab using Guid(94003cdd02bfa0849b07108d63f10e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5fae98466f5357bc12e775d623e5a8') in 0.022283 seconds
+  Import took 0.049383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.443255 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers
+  artifactKey: Guid(002ae82687d12084ebe47a31fdfa01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers using Guid(002ae82687d12084ebe47a31fdfa01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34679fd9e50eb616d2368cb9f154da0') in 0.012682 seconds
+  Import took 0.318245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545209 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_clothes_01.prefab
+  artifactKey: Guid(9e6377f4cae22eb4194f71c6e76c37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_clothes_01.prefab using Guid(9e6377f4cae22eb4194f71c6e76c37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53603926503cc4523a0c9865c179078c') in 0.097301 seconds
+  Import took 0.120707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab
+  artifactKey: Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab using Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47011d028e3a90464ce80d612b9f7cb2') in 0.050258 seconds
+  Import took 0.099808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008507 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab
+  artifactKey: Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab using Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47011d028e3a90464ce80d612b9f7cb2') in 0.016854 seconds
+  Import took 0.023315 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1827.
+Total: 8.838700 ms (FindLiveObjects: 0.710700 ms CreateObjectMapping: 0.453800 ms MarkObjects: 7.515200 ms  DeleteObjects: 0.152000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.4 MB.
+System memory in use after: 56.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1827.
+Total: 9.543400 ms (FindLiveObjects: 0.520600 ms CreateObjectMapping: 0.246500 ms MarkObjects: 8.724200 ms  DeleteObjects: 0.046400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1599.353658 seconds.
+  path: Assets/PolygonKnights/Prefabs/Props/SM_Prop_Lampost_01.prefab
+  artifactKey: Guid(5e1d462ffd80d7444837984e9e18388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Props/SM_Prop_Lampost_01.prefab using Guid(5e1d462ffd80d7444837984e9e18388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4e5c9a2d572db724f4ebdc33b8ed23') in 0.272104 seconds
+  Import took 0.295822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1286.754275 seconds.
+  path: Assets/PolygonKnights/Prefabs/Environments/SM_Env_RockPile_03.prefab
+  artifactKey: Guid(0eba33735703d6b49a1773d1396db4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Environments/SM_Env_RockPile_03.prefab using Guid(0eba33735703d6b49a1773d1396db4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f433ea837dbf401ab74cd49c69ea5e31') in 0.027039 seconds
+  Import took 0.122754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.445713 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab
+  artifactKey: Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab using Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af5bfe8e5ecd5fe36b19fd27099cacd') in 0.115539 seconds
+  Import took 0.144399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003119 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab
+  artifactKey: Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab using Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af5bfe8e5ecd5fe36b19fd27099cacd') in 0.013447 seconds
+  Import took 0.017449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.499320 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Ground.mat
+  artifactKey: Guid(2f984dd1b63fbc24abdd916834492e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Ground.mat using Guid(2f984dd1b63fbc24abdd916834492e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5934d69b7656253beff660cf8a25320') in 0.097896 seconds
+  Import took 0.131356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat
+  artifactKey: Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat using Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0744da537947a52ba5350cab9a1aa143') in 0.021598 seconds
+  Import took 0.039152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.251010 seconds.
+  path: Assets/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Pillar_01.prefab
+  artifactKey: Guid(c62ebd6969ff1124792ffb1a88aa399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Pillar_01.prefab using Guid(c62ebd6969ff1124792ffb1a88aa399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852ced9059bd6c4b3eaf1a3af5ae7889') in 0.018260 seconds
+  Import took 0.030899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.524977 seconds.
+  path: Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.png
+  artifactKey: Guid(22baa0e3b405a2149aed503a5ff7b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.png using Guid(22baa0e3b405a2149aed503a5ff7b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b81c5c1229a7d33e9b26466416bbf5') in 0.076623 seconds
+  Import took 0.108271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01.fbx
+  artifactKey: Guid(4e00bdee86e84a142864885ba4909f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01.fbx using Guid(4e00bdee86e84a142864885ba4909f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e816315a5bc3ca3cbfa22a551222be') in 0.090519 seconds
+  Import took 0.113271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow.fbx
+  artifactKey: Guid(79a8cec10649229459f4a491bede6072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow.fbx using Guid(79a8cec10649229459f4a491bede6072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2d94c830b702f973df06dba34cd417') in 0.053406 seconds
+  Import took 0.079771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.png
+  artifactKey: Guid(22baa0e3b405a2149aed503a5ff7b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.png using Guid(22baa0e3b405a2149aed503a5ff7b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b81c5c1229a7d33e9b26466416bbf5') in 0.014326 seconds
+  Import took 0.018165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02.fbx
+  artifactKey: Guid(8ccf24a9aab24844f88ede55ea50735a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02.fbx using Guid(8ccf24a9aab24844f88ede55ea50735a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c92452b4aaaefe444eaf7e77e967a89') in 0.061414 seconds
+  Import took 0.065384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Convex.asset
+  artifactKey: Guid(d784b226cd5f9f54f9d3d38cca26d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Convex.asset using Guid(d784b226cd5f9f54f9d3d38cca26d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770b656b2c445c610703df2c936ce520') in 0.028454 seconds
+  Import took 0.056900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow_Convex.asset
+  artifactKey: Guid(c5819ca99fb8d6142adb7d72d39456a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow_Convex.asset using Guid(c5819ca99fb8d6142adb7d72d39456a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44beaf27bb41d221d3c6047dddcf7d1') in 0.014900 seconds
+  Import took 0.022656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023381 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow_Convex.asset
+  artifactKey: Guid(c5819ca99fb8d6142adb7d72d39456a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_01_Snow_Convex.asset using Guid(c5819ca99fb8d6142adb7d72d39456a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44beaf27bb41d221d3c6047dddcf7d1') in 0.019990 seconds
+  Import took 0.031588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.728826 seconds.
+  path: Assets/Asset Packs/SYNTY/Environments/Castle/Components/Mini Castle.fbx
+  artifactKey: Guid(27034932e61b2ea46b6f73a681455787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SYNTY/Environments/Castle/Components/Mini Castle.fbx using Guid(27034932e61b2ea46b6f73a681455787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70698ffd8c5e6ef70d31323333faa38e') in 0.102521 seconds
+  Import took 0.126996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.313956 seconds.
+  path: Assets/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_01.prefab
+  artifactKey: Guid(98ab284b689f29148afb10f5b7f09992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_01.prefab using Guid(98ab284b689f29148afb10f5b7f09992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8193817a850e5128361969ba427cf56') in 0.018410 seconds
+  Import took 0.043074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.240912 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Convex.asset
+  artifactKey: Guid(0acb9f078c55b4149b573d79201cf8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Convex.asset using Guid(0acb9f078c55b4149b573d79201cf8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7331d089907c29984cd07abbbf1e1634') in 0.015930 seconds
+  Import took 0.048243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Snow.fbx
+  artifactKey: Guid(110f3e51a9a872f4c8a135962d3ce5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Snow.fbx using Guid(110f3e51a9a872f4c8a135962d3ce5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a3f2248e40c98e8e437c18d3fb2a6e') in 0.107947 seconds
+  Import took 0.111202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628417 seconds.
+  path: Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Snow_Convex.asset
+  artifactKey: Guid(4f97d09524ac69f4e83b3975d423619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Bld_Castle_Tower_Mini_02_Snow_Convex.asset using Guid(4f97d09524ac69f4e83b3975d423619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5081966d0b28dc7b3932a87847007c') in 0.014762 seconds
+  Import took 0.018147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.641599 seconds.
+  path: Assets/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_02.prefab
+  artifactKey: Guid(858952fd9f8e74140bf57e65ddc472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Buildings/SM_Bld_Castle_Tower_Mini_02.prefab using Guid(858952fd9f8e74140bf57e65ddc472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5a7e59d2d26358b21b21f4527d30a3') in 0.016721 seconds
+  Import took 0.026980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.960140 seconds.
+  path: Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.mat
+  artifactKey: Guid(4769cc6c54cfc4b49b1b0b931d1a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.mat using Guid(4769cc6c54cfc4b49b1b0b931d1a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e852f86d375c6fb14adc6c7a840074') in 0.029198 seconds
+  Import took 0.032336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.450133 seconds.
+  path: Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.mat
+  artifactKey: Guid(4769cc6c54cfc4b49b1b0b931d1a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SYNTY/Environments/Castle/Components/Materials/MiniCastle.mat using Guid(4769cc6c54cfc4b49b1b0b931d1a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7f0b43c5a998eb329ed1d2db66853e') in 0.042698 seconds
+  Import took 0.098344 seconds .
 
