@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'ru' Physical Memory: 12193 MB
+OS: 'Windows 10 Pro; OS build 19043.1415; Version 2009; 64bit' Language: 'ru' Physical Memory: 12193 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/UnityProjects/Games/RPG-Project-github/RPG-Project-242264e3876104baf11fee03d4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52071
+60911
 Successfully changed project path to: D:/UnityProjects/Games/RPG-Project-github/RPG-Project-242264e3876104baf11fee03d4886c3538b765c3
 D:/UnityProjects/Games/RPG-Project-github/RPG-Project-242264e3876104baf11fee03d4886c3538b765c3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 145.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,208 +35,778 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002426 seconds.
+Registered in 0.006570 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.417 seconds
+- Completed reload, in  5.632 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000688 seconds.
+Registered in 0.021717 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
+- Completed reload, in  2.142 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1288 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.9 MB.
-System memory in use after: 63.0 MB.
+Unloading 1309 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.5 MB.
+System memory in use after: 79.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1730.
-Total: 2.080400 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.081700 ms MarkObjects: 1.675800 ms  DeleteObjects: 0.079800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(e33fef7f4d1dd334089a384dfbe51a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(e33fef7f4d1dd334089a384dfbe51a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '9022d8b2026fc7c7a7d0e85372af4c5d') in 0.156945 seconds
-  Import took 0.160316 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 3.459600 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.895200 ms  DeleteObjects: 0.207400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.860983 seconds.
-  path: Assets/Audio/fast.mp3
-  artifactKey: Guid(41226677a04f72046953e9b975c6c3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/fast.mp3 using Guid(41226677a04f72046953e9b975c6c3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b19f885a2995aa94466ac4f7370c96') in 0.094296 seconds
-  Import took 0.096748 seconds .
+  path: Assets/Polygonal Particles/Assets/Materials/SkyboxMaterial.mat
+  artifactKey: Guid(fac2f58a8eabe2d44bebf8f6d0d7d74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Particles/Assets/Materials/SkyboxMaterial.mat using Guid(fac2f58a8eabe2d44bebf8f6d0d7d74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7932efcac0ca120a9fba3d18248ad298') in 0.318295 seconds
+  Import took 0.349487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.502 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1297 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 4.071600 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.106700 ms MarkObjects: 3.600100 ms  DeleteObjects: 0.029300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.087 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 2.811500 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.476500 ms  DeleteObjects: 0.025300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Audio/test.mp3
-  artifactKey: Guid(a3a33dee6e4261f4ebcac846c4d35b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/test.mp3 using Guid(a3a33dee6e4261f4ebcac846c4d35b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4bd39ae014e6471126b4d27dd9844') in 0.084052 seconds
-  Import took 0.086307 seconds .
+  Time since last request: 2113.927170 seconds.
+  path: Assets/Asset Packs/SimpleFX - Synty/Prefabs/FX_Fireworks_Yellow_Small.prefab
+  artifactKey: Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX - Synty/Prefabs/FX_Fireworks_Yellow_Small.prefab using Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b498dd2d99788928ce1a05531bb83e') in 0.436344 seconds
+  Import took 0.452314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Audio/toward-the-mountains-epic-adventure-music-7581.mp3
-  artifactKey: Guid(fc7011ceca9d5f8429ef1bd8ad94b7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/toward-the-mountains-epic-adventure-music-7581.mp3 using Guid(fc7011ceca9d5f8429ef1bd8ad94b7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5013783fe7edb1e00a4fcfb3438234dd') in 0.013069 seconds
-  Import took 0.015096 seconds .
+  Time since last request: 0.000443 seconds.
+  path: Assets/PolygonKnights/Models/SM_Prop_CampFire_01_Convex.asset
+  artifactKey: Guid(0d6e379fe09c6bd45abb06dc545b948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Prop_CampFire_01_Convex.asset using Guid(0d6e379fe09c6bd45abb06dc545b948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4647c353df86edab3fd9f28716d8051') in 0.167701 seconds
+  Import took 0.199210 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.981702 seconds.
-  path: Assets/Scenes/Sandbox/NavMesh.asset
-  artifactKey: Guid(511a3562b591c154ba817c8fb899c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox/NavMesh.asset using Guid(511a3562b591c154ba817c8fb899c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c236bc3ce25cb226f7c1b9bf0b6062d') in 0.009910 seconds
-  Import took 0.012954 seconds .
+  Time since last request: 0.000358 seconds.
+  path: Assets/Asset Packs/SimpleFX - Synty/Prefabs/FX_Fireworks_Yellow_Small.prefab
+  artifactKey: Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX - Synty/Prefabs/FX_Fireworks_Yellow_Small.prefab using Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b498dd2d99788928ce1a05531bb83e') in 0.011331 seconds
+  Import took 0.016868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Scenes/Sandbox/Sandbox Terrain.asset
-  artifactKey: Guid(bc1d67382e251ed4badf9b0aa3a99df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox/Sandbox Terrain.asset using Guid(bc1d67382e251ed4badf9b0aa3a99df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '6014666d7bc52e079becd281cfe4f693') in 0.026701 seconds
-  Import took 0.030696 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/PolygonKnights/Models/SM_Prop_CampFire_01.fbx
+  artifactKey: Guid(d817a0a5953491b43b70703469572251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Models/SM_Prop_CampFire_01.fbx using Guid(d817a0a5953491b43b70703469572251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdda735d001b620a5833f0a6ce07f36') in 0.127107 seconds
+  Import took 0.159160 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.388204 seconds.
-  path: Assets/Scenes/Sandbox2/NavMesh.asset
-  artifactKey: Guid(562abdfa8900a504290aa61f90afbb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox2/NavMesh.asset using Guid(562abdfa8900a504290aa61f90afbb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bd296ff9c9729ee6548fae4e168209') in 0.003054 seconds
-  Import took 0.006073 seconds .
+  Time since last request: 20.144969 seconds.
+  path: Assets/Game/Pickups/Fireball Pickup.prefab
+  artifactKey: Guid(f36a2cf083c91364cb75551db65825d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Pickups/Fireball Pickup.prefab using Guid(f36a2cf083c91364cb75551db65825d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cc9497fdc41619a17f0d7a312b7acf') in 0.761666 seconds
+  Import took 0.798521 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.447852 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(77417f66e48cf184e9aa33e8fa5789b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(77417f66e48cf184e9aa33e8fa5789b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f442bc7c7247b94679a3f7704dab217c') in 0.007423 seconds
-  Import took 0.010028 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/Game/Weapons/Fireball/Fireball Animator Override Controller.overrideController
+  artifactKey: Guid(99eca17fc7db8ed4ca3328d645790eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Weapons/Fireball/Fireball Animator Override Controller.overrideController using Guid(99eca17fc7db8ed4ca3328d645790eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523d5af07f716047b729aa50fe36d8ad') in 0.024349 seconds
+  Import took 0.045439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008951 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(77417f66e48cf184e9aa33e8fa5789b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(77417f66e48cf184e9aa33e8fa5789b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f442bc7c7247b94679a3f7704dab217c') in 0.002439 seconds
-  Import took 0.005038 seconds .
+  Time since last request: 0.000407 seconds.
+  path: Assets/Game/Projectiles/Fireball Projectile.prefab
+  artifactKey: Guid(773b9c943660d4047ad480f9c11d11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Projectiles/Fireball Projectile.prefab using Guid(773b9c943660d4047ad480f9c11d11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e15868368ea18e44a051c5c8bd80d') in 0.018742 seconds
+  Import took 0.045943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.669372 seconds.
-  path: Assets/Scenes/Sandbox.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c1dc14bdb4032ba6adc8b2c20f5f36') in 0.007273 seconds
-  Import took 0.010538 seconds .
+  Time since last request: 724.045826 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab
+  artifactKey: Guid(eeea6dd6475a8b94f9c2db3cf8ea1bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab using Guid(eeea6dd6475a8b94f9c2db3cf8ea1bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bebcd7ca311fe37119acd090fc12674') in 0.010911 seconds
+  Import took 0.043485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 499.985144 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx
-  artifactKey: Guid(d288a0e4a2d923b46898986e979da643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx using Guid(d288a0e4a2d923b46898986e979da643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6cc009e435d8fb6865e94c6e2c2d30') in 0.272292 seconds
-  Import took 0.276283 seconds .
+  Time since last request: 0.032539 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab
+  artifactKey: Guid(ba790c6fd6f7ab24d88313172ed55d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab using Guid(ba790c6fd6f7ab24d88313172ed55d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ce2176097f7e9f4dda69cdd8194b76') in 0.164092 seconds
+  Import took 0.186456 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx
-  artifactKey: Guid(9ada23a6ef88d194e832263f906fb0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx using Guid(9ada23a6ef88d194e832263f906fb0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb77545925517b93058886c85bb29e27') in 0.089798 seconds
-  Import took 0.093395 seconds .
+  Time since last request: 26.536992 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab
+  artifactKey: Guid(413c47d84d1a20046911d7de6f977649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab using Guid(413c47d84d1a20046911d7de6f977649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d931ddf244335eeee8bd3fa2b4ce0cc') in 0.197030 seconds
+  Import took 0.234603 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx
-  artifactKey: Guid(d288a0e4a2d923b46898986e979da643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx using Guid(d288a0e4a2d923b46898986e979da643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6cc009e435d8fb6865e94c6e2c2d30') in 0.093337 seconds
-  Import took 0.096796 seconds .
+  Time since last request: 19.847170 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat
+  artifactKey: Guid(fa8eda4ec55ee1a4e99ca991c5828dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat using Guid(fa8eda4ec55ee1a4e99ca991c5828dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc59192d0c5bf8e749bef445454e73') in 0.089705 seconds
+  Import took 0.137904 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx
-  artifactKey: Guid(9ada23a6ef88d194e832263f906fb0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx using Guid(9ada23a6ef88d194e832263f906fb0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb77545925517b93058886c85bb29e27') in 0.017289 seconds
-  Import took 0.020215 seconds .
+  Time since last request: 0.011425 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat
+  artifactKey: Guid(fa8eda4ec55ee1a4e99ca991c5828dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat using Guid(fa8eda4ec55ee1a4e99ca991c5828dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc59192d0c5bf8e749bef445454e73') in 0.031785 seconds
+  Import took 0.038152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 3.482900 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.937300 ms  DeleteObjects: 0.045700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.093821 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx
-  artifactKey: Guid(3575b401828b93647871254a386a8c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx using Guid(3575b401828b93647871254a386a8c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8aefa9caa626c5957faa468e6452aca') in 0.090381 seconds
-  Import took 0.093749 seconds .
+  Time since last request: 143.009727 seconds.
+  path: Assets/PolygonKnights/Prefabs/Environments/GREY.mat
+  artifactKey: Guid(72bc515f95e772a43b46139653e80637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Environments/GREY.mat using Guid(72bc515f95e772a43b46139653e80637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e932bb3f7e0cd44cef7c41247c0835') in 0.238466 seconds
+  Import took 0.278923 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx
-  artifactKey: Guid(a611913609580724f9fa93d94babf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx using Guid(a611913609580724f9fa93d94babf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2720f73117fca90bc6dfc4887a40ce72') in 0.035416 seconds
-  Import took 0.038282 seconds .
+  Time since last request: 248.240969 seconds.
+  path: Assets/PolygonKnights/Prefabs/Environments/GREY.mat
+  artifactKey: Guid(72bc515f95e772a43b46139653e80637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKnights/Prefabs/Environments/GREY.mat using Guid(72bc515f95e772a43b46139653e80637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c87a67b24c72c597cbc41e11fc0a21c') in 0.045368 seconds
+  Import took 0.117146 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx
-  artifactKey: Guid(77b34bb6ede1cbe408ac8dbcd04298c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx using Guid(77b34bb6ede1cbe408ac8dbcd04298c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecc309f7df550363c6dd4b8ffc6e479') in 0.098687 seconds
-  Import took 0.101026 seconds .
+  Time since last request: 608.880900 seconds.
+  path: Assets/Polygonal Particles/Assets/Prefabs/Environment/Fireflies 1.prefab
+  artifactKey: Guid(45be1e198c82d8d46b1bd3290e2d703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Particles/Assets/Prefabs/Environment/Fireflies 1.prefab using Guid(45be1e198c82d8d46b1bd3290e2d703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0831991c577133995821e1aca3d95ab3') in 0.233719 seconds
+  Import took 0.304370 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx
-  artifactKey: Guid(a611913609580724f9fa93d94babf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx using Guid(a611913609580724f9fa93d94babf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2720f73117fca90bc6dfc4887a40ce72') in 0.023059 seconds
-  Import took 0.026108 seconds .
+  Time since last request: 634.008239 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(e663e3e3d56605f4a83c0770f1943007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(e663e3e3d56605f4a83c0770f1943007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_Twisted_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_Twisted_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree LowPoly - FirTree B must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree LowPoly - FirTree B must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_TreeLog_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'c3239914ee5f3ab16bf1b30a026091d7') in 0.795445 seconds
+  Import took 0.814202 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx
-  artifactKey: Guid(3575b401828b93647871254a386a8c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx using Guid(3575b401828b93647871254a386a8c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8aefa9caa626c5957faa468e6452aca') in 0.017102 seconds
-  Import took 0.019852 seconds .
+  Time since last request: 0.000360 seconds.
+  path: Assets/TerrainData_53b91c49-1697-4532-8635-0fbdafc92702.asset
+  artifactKey: Guid(0e2f10d04378c984788650af30692d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_53b91c49-1697-4532-8635-0fbdafc92702.asset using Guid(0e2f10d04378c984788650af30692d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type0 06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '17ae03836902950a4aab76c1de57279c') in 0.491928 seconds
+  Import took 0.524603 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx
-  artifactKey: Guid(92f411609fca4d74d98af8e1bd1d4732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx using Guid(92f411609fca4d74d98af8e1bd1d4732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47aaeec9c04818571c510f5c729c2c3') in 0.068420 seconds
-  Import took 0.070719 seconds .
+  Time since last request: 0.342810 seconds.
+  path: Assets/FIRE.unitypackage
+  artifactKey: Guid(d3f2f671da3c46848b4638f4e1e01298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FIRE.unitypackage using Guid(d3f2f671da3c46848b4638f4e1e01298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87207c50c092302dc1d018aed8cae03d') in 0.012034 seconds
+  Import took 0.050019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.806152 seconds.
+  path: Assets/Polygonal Particles/Assets/Materials/Fireflies.mat
+  artifactKey: Guid(2e7143b4290d8d1469ee03e7e0b14eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Particles/Assets/Materials/Fireflies.mat using Guid(2e7143b4290d8d1469ee03e7e0b14eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde74283e306010bffef3ffe7d78bb28') in 0.108906 seconds
+  Import took 0.141497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.963761 seconds.
+  path: Assets/Asset Packs/SimpleFX - Synty/Materials/FX_Base.mat
+  artifactKey: Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX - Synty/Materials/FX_Base.mat using Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b129fc54464fc2a4b31e4ead5bcf7a61') in 0.294892 seconds
+  Import took 0.298626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonVikings/Prefabs/FX_Fire.prefab
+  artifactKey: Guid(fabff3cbe4a4be24a90f7b23e155e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonVikings/Prefabs/FX_Fire.prefab using Guid(fabff3cbe4a4be24a90f7b23e155e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13faae43918ef05058b4fed5c264ebda') in 0.004912 seconds
+  Import took 0.033929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Asset Packs/SimpleFX - Synty/Materials/FX_Base.mat
+  artifactKey: Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX - Synty/Materials/FX_Base.mat using Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b129fc54464fc2a4b31e4ead5bcf7a61') in 0.010059 seconds
+  Import took 0.014185 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001516 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.283 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 7.478900 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.187200 ms MarkObjects: 6.940300 ms  DeleteObjects: 0.033500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 4.664500 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.174500 ms MarkObjects: 4.106100 ms  DeleteObjects: 0.033500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.440 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 19.241700 ms (FindLiveObjects: 2.489900 ms CreateObjectMapping: 0.893900 ms MarkObjects: 15.783800 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3221.760112 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(e663e3e3d56605f4a83c0770f1943007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(e663e3e3d56605f4a83c0770f1943007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Env_Tree_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_Twisted_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_Twisted_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree LowPoly - FirTree B must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree LowPoly - FirTree B must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_Tree_010 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree SM_Env_TreeLog_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type5 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '0f59e103ee4fe4964dbbaa1a21fbf6c8') in 0.267993 seconds
+  Import took 0.333362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.461243 seconds.
+  path: Assets/ASSETS.unitypackage
+  artifactKey: Guid(d233818012e3f3040b834ffa6b8651e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSETS.unitypackage using Guid(d233818012e3f3040b834ffa6b8651e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abd6228e1ae350ff9d935d9fd56d5ce') in 0.012115 seconds
+  Import took 0.017103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.695156 seconds.
+  path: Assets/LALA
+  artifactKey: Guid(ab7de773591a4f645849bb384d44f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA using Guid(ab7de773591a4f645849bb384d44f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8d10ae3996f8e59ef5ab7b75202f59') in 0.004432 seconds
+  Import took 0.055771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LALA/SM_Prop_Gallows_01.prefab
+  artifactKey: Guid(f2f13287f317a96409d4fe6faa485c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Gallows_01.prefab using Guid(f2f13287f317a96409d4fe6faa485c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582f10f8fc9973377cbfcd40696b5e02') in 0.151049 seconds
+  Import took 0.164745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/LALA/Chopping Stump And Logs.prefab
+  artifactKey: Guid(518fec34d94eb2d47a33d792e2b09d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Chopping Stump And Logs.prefab using Guid(518fec34d94eb2d47a33d792e2b09d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab9cc13d8adeb6e8d02da77dc7e9b76') in 0.250181 seconds
+  Import took 0.254743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/LALA/Water Mill.prefab
+  artifactKey: Guid(37af1a80416540840b5c7145a6da2c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Water Mill.prefab using Guid(37af1a80416540840b5c7145a6da2c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fd531c0b74f2a4457327c686800420') in 1.230654 seconds
+  Import took 1.281305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/LALA/SM_Bld_Shanty_Preset_Bar_01 (1).prefab
+  artifactKey: Guid(aa15638dea8b1054084f038318ca50fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Bld_Shanty_Preset_Bar_01 (1).prefab using Guid(aa15638dea8b1054084f038318ca50fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b9de23cf9ad8588a543080e913e648') in 0.025071 seconds
+  Import took 0.029856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/LALA/Mini Castle.prefab
+  artifactKey: Guid(67c573481093a3c4b870a1755ff494cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Mini Castle.prefab using Guid(67c573481093a3c4b870a1755ff494cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552539adce4cd1ffc8d792ac309dc318') in 0.025355 seconds
+  Import took 0.043211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/LALA/SM_Prop_Crate_01 (2).prefab
+  artifactKey: Guid(48ff5e547ccdf074599838d3fc8fbf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Crate_01 (2).prefab using Guid(48ff5e547ccdf074599838d3fc8fbf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa36825177d4a9e5abcd0501a5a9d059') in 0.027921 seconds
+  Import took 0.051428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/LALA/Pillory (2).prefab
+  artifactKey: Guid(73b91e6ee62b8ca4693e8ab809c15b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Pillory (2).prefab using Guid(73b91e6ee62b8ca4693e8ab809c15b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef31bdc42a78473bbd514da7e75aee0d') in 0.022809 seconds
+  Import took 0.028819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/LALA/Town Bridge.prefab
+  artifactKey: Guid(ddc51ea0a58961942bcfc0240c1db8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Town Bridge.prefab using Guid(ddc51ea0a58961942bcfc0240c1db8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e7669bac9e3dee0ad1dc51a543d206') in 0.098448 seconds
+  Import took 0.112791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/LALA/SM_Prop_Dock_03.prefab
+  artifactKey: Guid(e0ec3584b6fb0ef47a9f582b3327ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Dock_03.prefab using Guid(e0ec3584b6fb0ef47a9f582b3327ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b4f42699c892f362709e01d16a25d5') in 0.020278 seconds
+  Import took 0.054652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/LALA/SM_Prop_Crate_03.prefab
+  artifactKey: Guid(7f20235de31334245a236650e8a21150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Crate_03.prefab using Guid(7f20235de31334245a236650e8a21150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5803ba316a0e617f41da53905087fe6') in 0.025121 seconds
+  Import took 0.050853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/LALA/SM_Prop_Stack_01.prefab
+  artifactKey: Guid(b85d6ad2656c1bb418e1bd37f12cb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Stack_01.prefab using Guid(b85d6ad2656c1bb418e1bd37f12cb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c27e6a0c19f32de3f0af4dea56b20ec') in 0.017414 seconds
+  Import took 0.038028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/LALA/SM_Bld_Dock_02.prefab
+  artifactKey: Guid(b8d24f18728ddb5428e517eebe04df3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Bld_Dock_02.prefab using Guid(b8d24f18728ddb5428e517eebe04df3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622f71de77a2194136783c4588f9d36d') in 0.038814 seconds
+  Import took 0.043689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/LALA/Spiked Wall Piece.prefab
+  artifactKey: Guid(59b6dbd6c909e154e91d06b2e08b2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Spiked Wall Piece.prefab using Guid(59b6dbd6c909e154e91d06b2e08b2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b8745ed2606b90cf40237572c4c3f2') in 0.025930 seconds
+  Import took 0.125370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/LALA/SM_Prop_RoadSign_01.prefab
+  artifactKey: Guid(85b033209dc904b48babc1c7f96784a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_RoadSign_01.prefab using Guid(85b033209dc904b48babc1c7f96784a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bb2dfd71fac137317e848343993dc5') in 0.013799 seconds
+  Import took 0.030692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/LALA/Tavern Building.prefab
+  artifactKey: Guid(148680b0af998a543ad280bac36c3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Tavern Building.prefab using Guid(148680b0af998a543ad280bac36c3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc45474dca42952c834dd972eaeff6a') in 0.037746 seconds
+  Import took 0.078500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001199 seconds.
+  path: Assets/LALA/SM_Prop_Cart_01.prefab
+  artifactKey: Guid(46176df366f651d41a97b944072b1356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Cart_01.prefab using Guid(46176df366f651d41a97b944072b1356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8392aba60a8f32ee5c32ca7e66d990c') in 0.018048 seconds
+  Import took 0.038135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/LALA/SM_Env_TreeLog_01 (8).prefab
+  artifactKey: Guid(a76ab23e5a2628d46a8c3f27abf62240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Env_TreeLog_01 (8).prefab using Guid(a76ab23e5a2628d46a8c3f27abf62240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8437f1e7ed465adcc60d23198d066aa8') in 0.021321 seconds
+  Import took 0.045485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/LALA/SM_Prop_Brazier_01 (2).prefab
+  artifactKey: Guid(b95e1315f119fd849995e35f73772d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Brazier_01 (2).prefab using Guid(b95e1315f119fd849995e35f73772d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f2a5c4b72da48164a42e68cf2a87b4') in 0.051286 seconds
+  Import took 0.057518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/LALA/SM_Prop_Stack_05.prefab
+  artifactKey: Guid(a8b146d78b82e1e4eab528d740d08902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/SM_Prop_Stack_05.prefab using Guid(a8b146d78b82e1e4eab528d740d08902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce0754dc82d5476e9b5bfdd5c8812f') in 0.019152 seconds
+  Import took 0.025027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/LALA/WindMill.prefab
+  artifactKey: Guid(d649e8dc3d1c9984191b066c850088ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/WindMill.prefab using Guid(d649e8dc3d1c9984191b066c850088ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82afbd96602d6784cbcbc1fabbdb583') in 0.037295 seconds
+  Import took 0.062949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/LALA/Wooden Watch Tower.prefab
+  artifactKey: Guid(4a6aff5902161894c942fe93392f77eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LALA/Wooden Watch Tower.prefab using Guid(4a6aff5902161894c942fe93392f77eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b923c0f5217b58e317d2de589334d40') in 0.032814 seconds
+  Import took 0.071190 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 2.930100 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.109300 ms MarkObjects: 2.339400 ms  DeleteObjects: 0.039000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1849.
+Total: 3.952200 ms (FindLiveObjects: 0.434100 ms CreateObjectMapping: 0.143300 ms MarkObjects: 3.339200 ms  DeleteObjects: 0.032500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.246 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1851.
+Total: 36.882400 ms (FindLiveObjects: 5.135000 ms CreateObjectMapping: 0.641900 ms MarkObjects: 31.007000 ms  DeleteObjects: 0.093100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
